@@ -16,3 +16,11 @@ priorities.forEach((item) => {
 
 
 console.log(name);
+
+let titleElement = document.getElementById('title')
+let titleQuerySelector = document.querySelector("#title")
+console.log(titleElement);
+
+titleElement.addEventListener("click", () => {
+    console.log("aa gaya")
+})
