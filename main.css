@@ -1,0 +1,21 @@
+
+.center {
+    text-align: center !important;
+}
+#title {
+    text-align: right;
+}
+
+table {
+    border: 1px dashed gray;
+    border-radius: 20px;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-around;
+}
+.left, .right {
+    width: 50%;
+}
